@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-syntek",
+  "name": "@syntek/eslint-config-syntek",
   "version": "0.0.1",
   "description": "Syntek ESLint shareable config",
   "main": "index.js",
