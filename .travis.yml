@@ -13,9 +13,8 @@ jobs:
 
 deploy:
   provider: npm
-  email: sebastiaanyn@gmail.com
-  api_key:
-    secure: dTs+mmXS2YyEiwbV+KCaxGZ7/cXmyzSzHl+U12W5GgtC+Gu22hQFOUmefs78fFbUsSmnelLr6PP0NbN9UZ33J0JqH9L1kYDIHKMYSUS6aPMl2Y7ZmsCWjfVX54Y9jZDwwZuS/W+TsVwv8cxTcDkHtScjTHOr/o/IOrK8deMKeVBr3ngOviW5GN39gKeOR7mbImZp2xyoL/hfTBMruHs1E/rgLg7gwOHjcz+EtMJfjp7K7Gv7qb8R8Ak76NO4rEGqTf1pbSiQZ7AEeG41vtxD/obp1ZjOu36r0OinFvHFxTEpLR7Dh5f2Vzb/mHuzrorKCJB+czROmUegcHGT37FVvadEGni6CAxyqpMxvQU3LTm7dxsmXseh4mzti/e0UAWyLThH5XxpiBcSvbwhn0fBzOChqZp3FDkJGDi/Wb9VQ570e4bFCYmTMN4ZyiIldbd40DGQHJpyvXAhd217pZfOi1W1CKtGJZSe0KNCwdfqCNOvrlMFqed8oRhia7EMjJfn1WkHvH/lR6fyt1px0lphYjppWTYw5hSOkvumIcjIKnCmx2/wsHpKwZMSfcshyJKglR924gGr3dJUolcnohPnYZTMnk5+EQiGvOUOMpZlz+MnzxQGvqQ+MoxCi69nU1WWi19blGwnGE6dXuQkw3xIrOCYZMnsYQqkVrg0QNg7wos=
+  email: "$NPM_EMAIL"
+  api_key: "$NPM_TOKEN"
+  skip_cleanup: true
   on:
     tags: true
-    repo: syntek-lang/eslint-config-syntek

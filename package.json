@@ -1,6 +1,6 @@
 {
   "name": "@syntek/eslint-config-syntek",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Syntek ESLint shareable config",
   "main": "index.js",
   "scripts": {
@@ -35,5 +35,8 @@
   },
   "eslintConfig": {
     "extends": "./node.js"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
