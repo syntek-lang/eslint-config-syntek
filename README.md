@@ -53,3 +53,12 @@ Or for the browser
   extends: '@syntek/syntek/typescript',
 }
 ```
+
+## Vue
+`@syntek/syntek/vue` for Vue
+
+```js
+{
+  extends: '@syntek/syntek/vue',
+}
+```

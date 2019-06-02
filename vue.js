@@ -23,19 +23,8 @@ module.exports = {
       exports: 'always-multiline',
       functions: 'always-multiline',
     }],
-    'vue/dot-location': ['error', 'property'],
     'vue/eqeqeq': ['error', 'always', { null: 'ignore' }],
     'vue/key-spacing': ['error', { beforeColon: false, afterColon: true }],
-    'vue/keyword-spacing': ['error', {
-      before: true,
-      after: true,
-      overrides: {
-        return: { after: true },
-        throw: { after: true },
-        case: { after: true },
-      },
-    }],
-    'vue/no-empty-pattern': 'error',
     'vue/object-curly-spacing': ['error', 'always'],
     'vue/space-infix-ops': 'error',
     'vue/space-unary-ops': ['error', {
@@ -52,9 +41,7 @@ module.exports = {
       shouldMatchCase: true,
     }],
     'vue/no-boolean-default': 'error',
-    'vue/no-deprecated-scope-attribute': 'error',
     'vue/require-direct-export': 'error',
     'vue/v-on-function-call': 'error',
-    'vue/valid-v-slot': 'error',
   },
 };
