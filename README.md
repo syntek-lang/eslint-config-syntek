@@ -1,24 +1,25 @@
 # eslint-config-syntek
+<a href="https://travis-ci.com/syntek-lang/eslint-config-syntek"><img src="https://img.shields.io/travis/com/syntek-lang/eslint-config-syntek.svg?style=for-the-badge" alt="Build" /></a>
+<a href="https://www.npmjs.com/package/@syntek/eslint-config-syntek"><img src="https://img.shields.io/github/package-json/v/syntek-lang/eslint-config-syntek.svg?colorB=red&style=for-the-badge" alt="Build" /></a>
 
-> Syntek ESLint shareable config
-
-# Dependencies
-You can view the peer dependencies you can install using the following command:
+## Dependencies
+You can view all the peer dependencies you can install using the following command:
 ```sh
 npm info @syntek/eslint-config-syntek@latest peerDependencies
 ```
 
-To automatically install the peer dependencies required by this config run the following command:
+You can install the required peer dependencies with the following command:
 ```sh
-npx install-peerdeps --dev @syntek/eslint-config-syntek
+npm i eslint eslint-config-airbnb-base eslint-plugin-eslint-comments eslint-plugin-import eslint-plugin-jsdoc -D
 ```
 
-# Configs
-This repository contains multiple eslint configurations.
+## Configs
+This repository contains multiple ESLint configurations.
 
-## Base
-`@syntek/syntek` for the base JavaScript rules
+### Base
+`@syntek/syntek` for the base JavaScript rules.
 
+ESLint config:
 ```js
 {
   extends: '@syntek/syntek',
@@ -36,27 +37,40 @@ Or for the browser
 }
 ```
 
-## Node
-`@syntek/syntek/node` for JavaScript with node
+### Node
+`@syntek/syntek/node` for JavaScript with node.
 
+ESLint config:
 ```js
 {
   extends: '@syntek/syntek/node',
 }
 ```
 
-## TypeScript
-`@syntek/syntek/typescript` for TypeScript
+### TypeScript
+`@syntek/syntek/typescript` for TypeScript.
 
+Additional required peer dependencies:
+```sh
+npm i typescript @typescript-eslint/parser @typescript-eslint/eslint-plugin -D
+```
+
+ESLint config:
 ```js
 {
   extends: '@syntek/syntek/typescript',
 }
 ```
 
-## Vue
-`@syntek/syntek/vue` for Vue
+### Vue
+`@syntek/syntek/vue` for Vue.
 
+Additional required peer dependencies:
+```sh
+npm i eslint-plugin-vue -D
+```
+
+ESLint config:
 ```js
 {
   extends: '@syntek/syntek/vue',
