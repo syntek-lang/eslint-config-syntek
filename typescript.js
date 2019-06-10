@@ -25,6 +25,9 @@ module.exports = {
     },
   },
   rules: {
+    // import
+    'import/extensions': 'off', // manage manually, as TypeScript doesn't want you to use .ts extensions
+
     // typescript-eslint
     'no-undef': 'off',
     'no-useless-constructor': 'off',

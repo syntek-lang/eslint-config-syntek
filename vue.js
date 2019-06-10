@@ -37,7 +37,7 @@ module.exports = {
     // Vue specific
     'vue/component-name-in-template-casing': 'error',
     'vue/match-component-file-name': ['error', {
-      extensions: ['jsx'],
+      extensions: ['vue'],
       shouldMatchCase: true,
     }],
     'vue/no-boolean-default': 'error',

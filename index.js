@@ -21,8 +21,11 @@ module.exports = {
     'require-await': 'error',
     'no-restricted-syntax': 'off',
     'prefer-destructuring': 'off',
-    'import/no-cycle': 'off',
     'linebreak-style': 'off',
+
+    // import
+    'import/no-cycle': 'off',
+    'import/extensions': ['error', 'always', { ignorePackages: true }],
 
     // jsdoc
     'jsdoc/check-alignment': 'error',
