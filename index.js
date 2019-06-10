@@ -22,6 +22,7 @@ module.exports = {
     'no-restricted-syntax': 'off',
     'prefer-destructuring': 'off',
     'import/no-cycle': 'off',
+    'linebreak-style': 'off',
 
     // jsdoc
     'jsdoc/check-alignment': 'error',
