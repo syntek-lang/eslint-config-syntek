@@ -21,20 +21,20 @@ This repository contains multiple ESLint configurations.
 
 ESLint config:
 ```js
-{
+module.exports = {
   extends: '@syntek/syntek',
-}
+};
 ```
 
 Or for the browser
 
 ```js
-{
+module.exports = {
   extends: '@syntek/syntek',
   env: {
     browser: true,
   },
-}
+};
 ```
 
 ### Node
@@ -42,9 +42,9 @@ Or for the browser
 
 ESLint config:
 ```js
-{
+module.exports = {
   extends: '@syntek/syntek/node',
-}
+};
 ```
 
 ### TypeScript
@@ -57,9 +57,9 @@ npm i typescript @typescript-eslint/parser @typescript-eslint/eslint-plugin -D
 
 ESLint config:
 ```js
-{
+module.exports = {
   extends: '@syntek/syntek/typescript',
-}
+};
 ```
 
 ### Vue
@@ -72,7 +72,25 @@ npm i eslint-plugin-vue -D
 
 ESLint config:
 ```js
-{
+module.exports = {
   extends: '@syntek/syntek/vue',
-}
+};
+```
+
+### Markdown
+`@syntek/syntek/markdown` for Markdown.
+
+Additional required peer dependencies:
+```sh
+npm i eslint-plugin-markdown -D
+```
+
+ESLint config:
+```js
+module.exports = {
+  extends: [
+    '@syntek/syntek', // or a different configuration
+    '@syntek/syntek/markdown',
+  ],
+};
 ```

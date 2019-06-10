@@ -4,7 +4,7 @@
   "description": "Syntek ESLint shareable config",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint . --ext .js,.md"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,8 @@
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-eslint-comments": "^3.1.1",
     "eslint-plugin-import": "^2.17.3",
-    "eslint-plugin-jsdoc": "^7.0.2"
+    "eslint-plugin-jsdoc": "^7.0.2",
+    "eslint-plugin-markdown": "^1.0.0"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^1.9.0",
@@ -31,11 +32,15 @@
     "eslint-plugin-eslint-comments": "^3.1.1",
     "eslint-plugin-import": "^2.17.3",
     "eslint-plugin-jsdoc": "^7.0.2",
+    "eslint-plugin-markdown": "^1.0.0",
     "eslint-plugin-vue": "^5.2.2",
     "typescript": "^3.4.5"
   },
   "eslintConfig": {
-    "extends": "./node.js"
+    "extends": [
+      "./node.js",
+      "./markdown.js"
+    ]
   },
   "publishConfig": {
     "access": "public"
