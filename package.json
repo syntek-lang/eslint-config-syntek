@@ -1,8 +1,8 @@
 {
   "name": "@syntek/eslint-config-syntek",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Syntek ESLint shareable config",
-  "main": "index.js",
+  "main": "cli.js",
   "scripts": {
     "lint": "eslint . --ext .js,.md"
   },
@@ -17,20 +17,20 @@
   },
   "homepage": "https://github.com/syntek-lang/eslint-config-syntek#readme",
   "devDependencies": {
-    "eslint": "^5.16.0",
+    "eslint": "^6.0.1",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-eslint-comments": "^3.1.1",
-    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-eslint-comments": "^3.1.2",
+    "eslint-plugin-import": "^2.18.0",
     "eslint-plugin-jsdoc": "^10.0.0",
     "eslint-plugin-markdown": "^1.0.0"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^1.9.0",
     "@typescript-eslint/parser": "^1.9.0",
-    "eslint": "^5.16.0",
+    "eslint": "^6.0.1",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-eslint-comments": "^3.1.1",
-    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-eslint-comments": "^3.1.2",
+    "eslint-plugin-import": "^2.18.0",
     "eslint-plugin-jsdoc": "^10.0.0",
     "eslint-plugin-markdown": "^1.0.0",
     "eslint-plugin-vue": "^5.2.2",

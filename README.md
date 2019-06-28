@@ -10,7 +10,7 @@ npm info @syntek/eslint-config-syntek@latest peerDependencies
 
 You can install the required peer dependencies with the following command:
 ```sh
-npm i eslint eslint-config-airbnb-base eslint-plugin-eslint-comments eslint-plugin-import eslint-plugin-jsdoc -D
+npx @syntek/eslint-config-syntek default
 ```
 
 ## Configs
@@ -52,7 +52,7 @@ module.exports = {
 
 Additional required peer dependencies:
 ```sh
-npm i typescript @typescript-eslint/parser @typescript-eslint/eslint-plugin -D
+npx @syntek/eslint-config-syntek typescript
 ```
 
 ESLint config:
@@ -67,7 +67,7 @@ module.exports = {
 
 Additional required peer dependencies:
 ```sh
-npm i eslint-plugin-vue -D
+npx @syntek/eslint-config-syntek vue
 ```
 
 ESLint config:
@@ -82,7 +82,7 @@ module.exports = {
 
 Additional required peer dependencies:
 ```sh
-npm i eslint-plugin-markdown -D
+npx @syntek/eslint-config-syntek markdown
 ```
 
 ESLint config:

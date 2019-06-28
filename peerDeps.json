@@ -1,0 +1,20 @@
+{
+  "default": [
+    "eslint",
+    "eslint-config-airbnb-base",
+    "eslint-plugin-eslint-comments",
+    "eslint-plugin-import",
+    "eslint-plugin-jsdoc"
+  ],
+  "typescript": [
+    "typescript",
+    "@typescript-eslint/parser",
+    "@typescript-eslint/eslint-plugin"
+  ],
+  "vue": [
+    "eslint-plugin-vue"
+  ],
+  "markdown": [
+    "eslint-plugin-markdown"
+  ]
+}
