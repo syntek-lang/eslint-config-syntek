@@ -1,8 +1,9 @@
 {
   "name": "@syntek/eslint-config-syntek",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Syntek ESLint shareable config",
-  "main": "cli.js",
+  "main": "./cli.js",
+  "bin": "./cli.js",
   "scripts": {
     "lint": "eslint . --ext .js,.md"
   },
