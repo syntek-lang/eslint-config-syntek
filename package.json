@@ -21,7 +21,7 @@
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-eslint-comments": "^3.1.1",
     "eslint-plugin-import": "^2.17.3",
-    "eslint-plugin-jsdoc": "^9.0.0",
+    "eslint-plugin-jsdoc": "^10.0.0",
     "eslint-plugin-markdown": "^1.0.0"
   },
   "peerDependencies": {
@@ -31,7 +31,7 @@
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-eslint-comments": "^3.1.1",
     "eslint-plugin-import": "^2.17.3",
-    "eslint-plugin-jsdoc": "^9.0.0",
+    "eslint-plugin-jsdoc": "^10.0.0",
     "eslint-plugin-markdown": "^1.0.0",
     "eslint-plugin-vue": "^5.2.2",
     "typescript": "^3.4.5"
